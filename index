@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iuliana Surleac — Vocal Coaching &amp; Vocal Healing</title>
+<meta name="description" content="Vocal coaching and vocal healing lessons with Iuliana Surleac — online and in person.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Primary">
+    <a href="#top" class="nav__mark">Iuliana Surleac</a>
+    <button class="nav__toggle" aria-expanded="false" aria-controls="nav-links" id="navToggle">
+      <span></span><span></span><span></span>
+      <span class="sr-only">Menu</span>
+    </button>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#lessons">Lessons</a></li>
+      <li><a href="#prices">Prices</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact" class="nav__cta">Book a lesson</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero__wave" aria-hidden="true">
+      <svg viewBox="0 0 1200 200" preserveAspectRatio="none">
+        <path class="wave-path wave-path--jagged" d="M0,100 L40,60 L80,140 L120,40 L160,150 L200,70 L240,120 L280,50 L320,100" />
+        <path class="wave-path wave-path--smooth" d="M320,100 C420,40 480,160 560,100 C640,40 700,160 780,100 C860,40 940,160 1020,100 C1080,70 1140,120 1200,100" />
+      </svg>
+    </div>
+    <div class="hero__inner">
+      <p class="eyebrow">Vocal coaching &amp; vocal healing</p>
+      <h1 class="hero__title">The voice you have<br><em>is the one we'll open up.</em></h1>
+      <p class="hero__lede">Technique for the singer who wants control. Sound healing for the voice that needs to breathe. One-to-one lessons, online or in person.</p>
+      <div class="hero__actions">
+        <a href="#contact" class="btn btn--primary">Book a lesson</a>
+        <a href="#lessons" class="btn btn--ghost">See how it works</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="section-inner about__grid">
+      <div class="about__portrait">
+        <div class="about__portrait-frame">
+          <!-- Replace this placeholder with a real photo: <img src="your-photo.jpg" alt="Iuliana Surleac"> -->
+          <div class="about__portrait-placeholder">Your photo here</div>
+        </div>
+      </div>
+      <div class="about__copy">
+        <p class="eyebrow">About</p>
+        <h2>Hi, I'm Iuliana.</h2>
+        <p>I work with singers and speakers who want two things that usually get treated as opposites: precise technique, and a voice that feels free. Some weeks we drill breath support and pitch control. Other weeks the work is quieter — releasing tension that's been sitting in the throat for years.</p>
+        <p><!-- Replace with your real training, background, and experience --> Add a paragraph here about your training, your background, and the kind of students you love working with.</p>
+        <ul class="about__facts">
+          <li><!-- e.g. "10+ years teaching" -->Add a credential or fact</li>
+          <li><!-- e.g. "Trained in classical & contemporary technique" -->Add a credential or fact</li>
+          <li><!-- e.g. "Sessions in Romanian, English" -->Add a credential or fact</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- LESSONS -->
+  <section class="lessons" id="lessons">
+    <div class="section-inner">
+      <p class="eyebrow eyebrow--on-dark">Voice lessons</p>
+      <h2 class="lessons__title">Two disciplines, one voice.</h2>
+      <div class="lessons__grid">
+
+        <article class="lesson-card lesson-card--coaching">
+          <svg class="lesson-card__icon" viewBox="0 0 200 60" aria-hidden="true">
+            <path d="M0,30 L20,10 L40,50 L60,5 L80,55 L100,20 L120,40 L140,15 L160,45 L180,25 L200,30" />
+          </svg>
+          <h3>Vocal Coaching</h3>
+          <p>Technical training for singers who want to sing with more range, control, and consistency. We work on breath support, pitch accuracy, resonance, and repertoire — building habits that hold up on stage, not just in the practice room.</p>
+          <p class="lesson-card__for"><!-- Edit this line to describe who it's for -->Best for: singers preparing for performance, auditions, or building a stronger technical foundation.</p>
+        </article>
+
+        <article class="lesson-card lesson-card--healing">
+          <svg class="lesson-card__icon" viewBox="0 0 200 60" aria-hidden="true">
+            <path d="M0,30 C25,10 45,50 70,30 C95,10 115,50 140,30 C165,10 185,50 200,30" />
+          </svg>
+          <h3>Vocal Healing</h3>
+          <p>A gentler practice for reconnecting with your voice without the pressure of performance. We use breath, sound, and guided vocalisation to release tension, ease vocal fatigue, and rebuild trust in a voice that's felt blocked, tired, or lost.</p>
+          <p class="lesson-card__for"><!-- Edit this line to describe who it's for -->Best for: anyone recovering from vocal strain, stage fright, or simply wanting to feel at home in their own voice again.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICES -->
+  <section class="prices" id="prices">
+    <div class="section-inner">
+      <p class="eyebrow">Prices</p>
+      <h2>Lessons, priced simply.</h2>
+      <p class="prices__note">Every lesson is 50 minutes. Choose a single lesson or save with a bundle of 5 or 10 — available online or in person.</p>
+
+      <div class="prices__table" role="table">
+        <div class="prices__row prices__row--head" role="row">
+          <div class="prices__cell prices__cell--label" role="columnheader"></div>
+          <div class="prices__cell" role="columnheader">1 lesson</div>
+          <div class="prices__cell" role="columnheader">5 lessons</div>
+          <div class="prices__cell" role="columnheader">10 lessons</div>
+        </div>
+        <div class="prices__row" role="row">
+          <div class="prices__cell prices__cell--label" role="rowheader">Online</div>
+          <div class="prices__cell" role="cell" data-label="1 lesson">€<!-- price -->XX</div>
+          <div class="prices__cell" role="cell" data-label="5 lessons">€<!-- price -->XXX</div>
+          <div class="prices__cell" role="cell" data-label="10 lessons">€<!-- price -->XXX</div>
+        </div>
+        <div class="prices__row" role="row">
+          <div class="prices__cell prices__cell--label" role="rowheader">In person</div>
+          <div class="prices__cell" role="cell" data-label="1 lesson">€<!-- price -->XX</div>
+          <div class="prices__cell" role="cell" data-label="5 lessons">€<!-- price -->XXX</div>
+          <div class="prices__cell" role="cell" data-label="10 lessons">€<!-- price -->XXX</div>
+        </div>
+      </div>
+      <p class="prices__footnote">Prices apply to both vocal coaching and vocal healing sessions. <!-- Edit or remove this line as needed --></p>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="testimonials">
+    <div class="section-inner">
+      <p class="eyebrow eyebrow--on-dark">Testimonials</p>
+      <h2 class="testimonials__title">In their words.</h2>
+      <div class="testimonials__grid">
+        <figure class="testimonial-card">
+          <blockquote><!-- Replace with a real testimonial -->"Add a real testimonial from a student here — a sentence or two about what changed for them."</blockquote>
+          <figcaption>— <!-- Name -->Student name</figcaption>
+        </figure>
+        <figure class="testimonial-card">
+          <blockquote><!-- Replace with a real testimonial -->"Add a real testimonial from a student here — a sentence or two about what changed for them."</blockquote>
+          <figcaption>— <!-- Name -->Student name</figcaption>
+        </figure>
+        <figure class="testimonial-card">
+          <blockquote><!-- Replace with a real testimonial -->"Add a real testimonial from a student here — a sentence or two about what changed for them."</blockquote>
+          <figcaption>— <!-- Name -->Student name</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / BOOKING -->
+  <section class="contact" id="contact">
+    <div class="section-inner contact__grid">
+      <div class="contact__intro">
+        <p class="eyebrow">Booking &amp; contact</p>
+        <h2>Ready to start?</h2>
+        <p>Send a message with a bit about your voice and what you're hoping to work on, and I'll get back to you to find a time.</p>
+        <ul class="contact__details">
+          <li><strong>Email</strong><br><a href="mailto:hello@iulianasurleac.com">hello@iulianasurleac.com</a><!-- Replace with your real email --></li>
+          <li><strong>Location</strong><br><!-- Replace with your city / studio address -->City, in-person sessions by appointment</li>
+        </ul>
+      </div>
+
+      <form class="contact__form" id="bookingForm" method="POST" action="mailto:hello@iulianasurleac.com" enctype="text/plain">
+        <!-- This form opens the visitor's email client with the fields pre-filled — no backend or cost required.
+             Replace the email address above with your real one. -->
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="Name" required>
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="Email" required>
+        </div>
+        <div class="form-row">
+          <label for="lessonType">Interested in</label>
+          <select id="lessonType" name="Interested in">
+            <option>Vocal Coaching</option>
+            <option>Vocal Healing</option>
+            <option>Not sure yet</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="format">Format</label>
+          <select id="format" name="Format">
+            <option>Online</option>
+            <option>In person</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="Message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary">Send message</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> Iuliana Surleac. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
