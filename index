@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Iuliana Surleac — Vocal Coaching &amp; Vocal Healing</title>
-<meta name="description" content="Vocal coaching and vocal healing lessons with Iuliana Surleac — online and in person.">
+<title>Iuliana Surleac — Vocal Coaching &amp; Vocal Exploration</title>
+<meta name="description" content="Vocal coaching and vocal exploration & healing lessons with Iuliana Surleac — online and in person, Copenhagen.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -26,6 +26,7 @@
       <li><a href="#lessons">Lessons</a></li>
       <li><a href="#prices">Prices</a></li>
       <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#events">Events</a></li>
       <li><a href="#contact" class="nav__cta">Book a lesson</a></li>
     </ul>
   </nav>
@@ -42,12 +43,12 @@
       </svg>
     </div>
     <div class="hero__inner">
-      <p class="eyebrow">Vocal coaching &amp; vocal healing</p>
-      <h1 class="hero__title">The voice you have<br><em>is the one we'll open up.</em></h1>
-      <p class="hero__lede">Technique for the singer who wants control. Sound healing for the voice that needs to breathe. One-to-one lessons, online or in person.</p>
+      <p class="eyebrow">Vocal coaching &amp; vocal exploration</p>
+      <h1 class="hero__title">Your voice is not something to fix.<br><em>It is something you return home to.</em></h1>
+      <p class="hero__lede">A space where vocal technique, body awareness and expression come together. Individual lessons in Copenhagen and online.</p>
       <div class="hero__actions">
         <a href="#contact" class="btn btn--primary">Book a lesson</a>
-        <a href="#lessons" class="btn btn--ghost">See how it works</a>
+        <a href="#lessons" class="btn btn--ghost">Learn more</a>
       </div>
     </div>
   </section>
@@ -57,20 +58,24 @@
     <div class="section-inner about__grid">
       <div class="about__portrait">
         <div class="about__portrait-frame">
-          <!-- Replace this placeholder with a real photo: <img src="your-photo.jpg" alt="Iuliana Surleac"> -->
-          <div class="about__portrait-placeholder">Your photo here</div>
+          <img src="iuliana-photo.jpg" alt="Iuliana Surleac performing" loading="lazy">
         </div>
       </div>
       <div class="about__copy">
         <p class="eyebrow">About</p>
         <h2>Hi, I'm Iuliana.</h2>
-        <p>I work with singers and speakers who want two things that usually get treated as opposites: precise technique, and a voice that feels free. Some weeks we drill breath support and pitch control. Other weeks the work is quieter — releasing tension that's been sitting in the throat for years.</p>
-        <p><!-- Replace with your real training, background, and experience --> Add a paragraph here about your training, your background, and the kind of students you love working with.</p>
-        <ul class="about__facts">
-          <li><!-- e.g. "10+ years teaching" -->Add a credential or fact</li>
-          <li><!-- e.g. "Trained in classical & contemporary technique" -->Add a credential or fact</li>
-          <li><!-- e.g. "Sessions in Romanian, English" -->Add a credential or fact</li>
+        <p>My name is Iuliana Surleac, coming from a small city in Romania named Vaslui. I started singing when I was a kid, which led me to studying music from the age of 14, after being accepted to Octav Băncilă College of Arts in Iași in 2012, and then doing my bachelor's at the National University of Music Bucharest in 2016, with Performance, Classical Singing as my main subject.</p>
+        <p>After 8 years of vocal classical training, I started teaching. Working as a vocal coach showed me that I still lacked enough information to help my students, as people came to me to sing pop music, not classical, which I didn't know much about. So this is how I found myself diving into different vocal methods — working with different coaches from Romania, buying Cheryl Porter's courses, doing a vocal coach course in Complete Vocal Technique with an Authorised Complete Vocal Technique Teacher — implementing all that I was learning into my individual lessons with my students. My desire was to help my students in the best way possible, as much as I can.</p>
+        <p>In 2024 I moved to Denmark, where I started a master's in Music Education at Rhythmic Music Conservatory in Copenhagen. There I got the opportunity to develop myself even more, working on individual projects, developing and planning. I facilitated a series of workshops called <em>Free Your Voice</em>, where the focus was put on body work rather than vocal technique, as I was supporting the idea that if the body is free, then the voice will be free as well. I also worked on a project called <em>Music for Wellbeing</em>, where I explored how music impacts our mental state and can help us deal with stress and anxiety — and how powerful voice is in this context, when used with the purpose of bringing comfort.</p>
+        <p>I also took the time to find other ways of working with voice, as I believed that one method can't fit everyone — we are so different, each with our own needs. During this time I worked and learned with the Anne Rosing Method, but also looked into Speech Level Singing, Fitzmaurice Voicework, Kristin Linklater's Vocal Method, and Paul Newham's Voice Movement Therapy, learning more about different ways and approaches to voice and vocalisation.</p>
+        <p>Eventually I looked into my role in my students' lives, as I was not sure if "vocal coach" was the best title for what I am doing. I realised that I am:</p>
+        <ul class="about__roles">
+          <li><strong>A vocal coach,</strong> as I help my students train their voices and sing whatever they want, in any manner.</li>
+          <li><strong>A teacher,</strong> as I teach my students about their voices, how they work, and how to take care of them — but also the connection with their bodies.</li>
+          <li><strong>A facilitator,</strong> as I create a space for my students to feel welcomed and safe, a place where I encourage healthy vocal expression and where we build confidence.</li>
+          <li><strong>A guide,</strong> as I guide my students back to their authentic voice — something that has always been there, but maybe hidden for different reasons. I also let them guide me, helping them based on their own needs and sensations.</li>
         </ul>
+        <p>In all these years working with voice, I've had the chance to work with different types of people and voices, with ages from 5 to 56 years old, with different levels — from beginners trying to find their voice to professionals who wanted to sharpen their skills. Everyone is welcomed as they are, because I believe that everyone can sing. We all have a voice, but not everyone has had the opportunity to express it freely, understand how it works, or feel confident using it.</p>
       </div>
     </div>
   </section>
@@ -87,17 +92,19 @@
             <path d="M0,30 L20,10 L40,50 L60,5 L80,55 L100,20 L120,40 L140,15 L160,45 L180,25 L200,30" />
           </svg>
           <h3>Vocal Coaching</h3>
-          <p>Technical training for singers who want to sing with more range, control, and consistency. We work on breath support, pitch accuracy, resonance, and repertoire — building habits that hold up on stage, not just in the practice room.</p>
-          <p class="lesson-card__for"><!-- Edit this line to describe who it's for -->Best for: singers preparing for performance, auditions, or building a stronger technical foundation.</p>
+          <p>Lessons combine technical vocal training with body awareness, breathing, movement, imagination, and creative expression. Depending on your needs, we can work on vocal technique, confidence, musicality, performance, vocal freedom, or simply finding more comfort in your own voice.</p>
+          <p>Whether you are a beginner discovering your voice for the first time, an experienced singer wishing to refine your skills, or someone who simply loves to sing, the lessons are tailored to your individual goals and pace. Together, we will explore your voice in a healthy, sustainable, and supportive environment, where curiosity, playfulness, and authenticity are just as important as technique.</p>
+          <p class="lesson-card__for">The goal is not to become someone else's voice, but to discover your own.</p>
         </article>
 
         <article class="lesson-card lesson-card--healing">
           <svg class="lesson-card__icon" viewBox="0 0 200 60" aria-hidden="true">
             <path d="M0,30 C25,10 45,50 70,30 C95,10 115,50 140,30 C165,10 185,50 200,30" />
           </svg>
-          <h3>Vocal Healing</h3>
-          <p>A gentler practice for reconnecting with your voice without the pressure of performance. We use breath, sound, and guided vocalisation to release tension, ease vocal fatigue, and rebuild trust in a voice that's felt blocked, tired, or lost.</p>
-          <p class="lesson-card__for"><!-- Edit this line to describe who it's for -->Best for: anyone recovering from vocal strain, stage fright, or simply wanting to feel at home in their own voice again.</p>
+          <h3>Vocal Exploration</h3>
+          <p>This is for those who want a more holistic approach to voice, working with vocal sounding, exploration, and body work to find more comfort in using and expressing your voice freely. In a safe space, inspired by Paul Newham's Voice Movement Therapy — the idea that everything that happens in our life leaves a trace on our voice, and that the voice is also a way out — I combine my own work with sound healing, breathwork, and bodywork to support each client in their own way.</p>
+          <p>I want to help you befriend your voice and let it exist in the space.</p>
+          <p class="lesson-card__for">For anyone looking for a different way into vocal work — who feels stuck, or is looking for a safe place to express their voice and find comfort through it.</p>
         </article>
 
       </div>
@@ -119,19 +126,46 @@
           <div class="prices__cell" role="columnheader">10 lessons</div>
         </div>
         <div class="prices__row" role="row">
-          <div class="prices__cell prices__cell--label" role="rowheader">Online</div>
-          <div class="prices__cell" role="cell" data-label="1 lesson">€<!-- price -->XX</div>
-          <div class="prices__cell" role="cell" data-label="5 lessons">€<!-- price -->XXX</div>
-          <div class="prices__cell" role="cell" data-label="10 lessons">€<!-- price -->XXX</div>
+          <div class="prices__cell prices__cell--label" role="rowheader">In person</div>
+          <div class="prices__cell" role="cell" data-label="1 lesson">
+            <div class="prices__value"><span class="prices__amount">500 DKK</span></div>
+          </div>
+          <div class="prices__cell" role="cell" data-label="5 lessons">
+            <div class="prices__value">
+              <span class="prices__amount">450 DKK<span class="prices__unit">/session</span></span>
+              <span class="prices__sub">2,250 DKK total</span>
+            </div>
+          </div>
+          <div class="prices__cell" role="cell" data-label="10 lessons">
+            <div class="prices__value">
+              <span class="prices__amount">400 DKK<span class="prices__unit">/session</span></span>
+              <span class="prices__sub">4,000 DKK total</span>
+            </div>
+          </div>
         </div>
         <div class="prices__row" role="row">
-          <div class="prices__cell prices__cell--label" role="rowheader">In person</div>
-          <div class="prices__cell" role="cell" data-label="1 lesson">€<!-- price -->XX</div>
-          <div class="prices__cell" role="cell" data-label="5 lessons">€<!-- price -->XXX</div>
-          <div class="prices__cell" role="cell" data-label="10 lessons">€<!-- price -->XXX</div>
+          <div class="prices__cell prices__cell--label" role="rowheader">Online</div>
+          <div class="prices__cell" role="cell" data-label="1 lesson">
+            <div class="prices__value">
+              <span class="prices__amount">400 DKK</span>
+              <span class="prices__sub">≈ €55</span>
+            </div>
+          </div>
+          <div class="prices__cell" role="cell" data-label="5 lessons">
+            <div class="prices__value">
+              <span class="prices__amount">350 DKK<span class="prices__unit">/session</span></span>
+              <span class="prices__sub">1,750 DKK &middot; ≈ €230 total</span>
+            </div>
+          </div>
+          <div class="prices__cell" role="cell" data-label="10 lessons">
+            <div class="prices__value">
+              <span class="prices__amount">300 DKK<span class="prices__unit">/session</span></span>
+              <span class="prices__sub">3,000 DKK &middot; ≈ €400 total</span>
+            </div>
+          </div>
         </div>
       </div>
-      <p class="prices__footnote">Prices apply to both vocal coaching and vocal healing sessions. <!-- Edit or remove this line as needed --></p>
+      <p class="prices__footnote">Prices apply to both Vocal Coaching and Vocal Exploration sessions. Euro amounts are approximate.</p>
     </div>
   </section>
 
@@ -142,18 +176,47 @@
       <h2 class="testimonials__title">In their words.</h2>
       <div class="testimonials__grid">
         <figure class="testimonial-card">
-          <blockquote><!-- Replace with a real testimonial -->"Add a real testimonial from a student here — a sentence or two about what changed for them."</blockquote>
-          <figcaption>— <!-- Name -->Student name</figcaption>
+          <blockquote>"I can highly recommend Iuliana as a singing teacher. She has a remarkable ability to make even the shyest student feel comfortable, confident and supported. She has a patient and encouraging approach with a welcoming environment where students can challenge themselves and grow. Iuliana is kind, responsive and a pleasure to work with. Her positive attitude and dedication make her an exceptional teacher."</blockquote>
+          <figcaption>— Melinda J. ★★★★★</figcaption>
         </figure>
         <figure class="testimonial-card">
-          <blockquote><!-- Replace with a real testimonial -->"Add a real testimonial from a student here — a sentence or two about what changed for them."</blockquote>
-          <figcaption>— <!-- Name -->Student name</figcaption>
+          <blockquote>"I started as a complete beginner and Iuliana has been a tremendous help since the beginning. She is really good at explaining the same thing in multiple ways if you don't understand it the first time. What I appreciate the most about her teaching methods is how relaxed and stress-free she is. The focus is on having fun and getting better at singing. Nothing more, nothing less. 10/10 would recommend."</blockquote>
+          <figcaption>— Nikolaj R. ★★★★★</figcaption>
         </figure>
         <figure class="testimonial-card">
-          <blockquote><!-- Replace with a real testimonial -->"Add a real testimonial from a student here — a sentence or two about what changed for them."</blockquote>
-          <figcaption>— <!-- Name -->Student name</figcaption>
+          <blockquote>"Incredibly talented and professional singing teacher with great knowledge of technique. With just a few lessons, she has made a big difference in my singing!"</blockquote>
+          <figcaption>— Lars J. ★★★★★</figcaption>
         </figure>
       </div>
+    </div>
+  </section>
+
+  <!-- EVENTS -->
+  <section class="events" id="events">
+    <div class="section-inner">
+      <p class="eyebrow">Events</p>
+      <h2>Workshops &amp; group sessions.</h2>
+      <p class="events__note">Upcoming workshops, voice circles, and other events will be announced here. More details coming soon.</p>
+
+      <!--
+        When you have a real event to add, replace this comment with an
+        <article class="event-card"> block like the one below, filled in with real details:
+
+        <article class="event-card">
+          <div class="event-card__date">
+            <span class="event-card__month">JUN</span>
+            <span class="event-card__day">14</span>
+          </div>
+          <div class="event-card__body">
+            <h3>Free Your Voice — Workshop</h3>
+            <p class="event-card__meta">7:00 PM &middot; Copenhagen</p>
+            <p>A short description of the event and who it's for.</p>
+          </div>
+          <a href="#contact" class="btn btn--ghost event-card__cta">Reserve a spot</a>
+        </article>
+
+        Wrap one or more of these in a <div class="events__list"> ... </div> container.
+      -->
     </div>
   </section>
 
@@ -165,14 +228,25 @@
         <h2>Ready to start?</h2>
         <p>Send a message with a bit about your voice and what you're hoping to work on, and I'll get back to you to find a time.</p>
         <ul class="contact__details">
-          <li><strong>Email</strong><br><a href="mailto:hello@iulianasurleac.com">hello@iulianasurleac.com</a><!-- Replace with your real email --></li>
-          <li><strong>Location</strong><br><!-- Replace with your city / studio address -->City, in-person sessions by appointment</li>
+          <li><strong>Email</strong><br><a href="mailto:surleac.iuliana@gmail.com">surleac.iuliana@gmail.com</a></li>
+          <li><strong>Location</strong><br>Copenhagen, Denmark — in-person sessions by appointment</li>
         </ul>
+
+        <div class="social-links">
+          <a href="https://www.instagram.com/voicewithiuliana/" class="social-links__item" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor"/></svg>
+          </a>
+          <a href="https://www.youtube.com/@isjudyhere" class="social-links__item" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10 9.2 L15.2 12 L10 14.8 Z" fill="currentColor"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@voicewithiuliana" class="social-links__item" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3v10.5a2.8 2.8 0 1 1-2.2-2.74" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M14 3c0 2.6 2 4.6 4.5 4.7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </a>
+        </div>
       </div>
 
-      <form class="contact__form" id="bookingForm" method="POST" action="mailto:hello@iulianasurleac.com" enctype="text/plain">
-        <!-- This form opens the visitor's email client with the fields pre-filled — no backend or cost required.
-             Replace the email address above with your real one. -->
+      <form class="contact__form" id="bookingForm" method="POST" action="mailto:surleac.iuliana@gmail.com" enctype="text/plain">
+        <!-- This form opens the visitor's email client with the fields pre-filled — no backend or cost required. -->
         <div class="form-row">
           <label for="name">Name</label>
           <input type="text" id="name" name="Name" required>
@@ -185,7 +259,7 @@
           <label for="lessonType">Interested in</label>
           <select id="lessonType" name="Interested in">
             <option>Vocal Coaching</option>
-            <option>Vocal Healing</option>
+            <option>Vocal Exploration</option>
             <option>Not sure yet</option>
           </select>
         </div>
@@ -208,6 +282,17 @@
 </main>
 
 <footer class="site-footer">
+  <div class="social-links social-links--footer">
+    <a href="https://www.instagram.com/voicewithiuliana/" class="social-links__item" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor"/></svg>
+    </a>
+    <a href="https://www.youtube.com/@isjudyhere" class="social-links__item" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10 9.2 L15.2 12 L10 14.8 Z" fill="currentColor"/></svg>
+    </a>
+    <a href="https://www.tiktok.com/@voicewithiuliana" class="social-links__item" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3v10.5a2.8 2.8 0 1 1-2.2-2.74" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M14 3c0 2.6 2 4.6 4.5 4.7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+    </a>
+  </div>
   <p>&copy; <span id="year"></span> Iuliana Surleac. All rights reserved.</p>
 </footer>
 
