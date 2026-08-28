@@ -284,7 +284,7 @@ a { color: inherit; }
 /* ===== Events ===== */
 .events { background: var(--cream); }
 .events__note { max-width: 55ch; color: var(--text-muted); }
-.events__list { margin-top: 2.5rem; display: flex; flex-direction: column; gap: 1.25rem; }
+.events__list { margin-top: 2.5rem; display: flex; flex-direction: column; gap: 1.5rem; }
 .event-card {
   display: grid; grid-template-columns: auto 1fr auto; gap: 1.75rem; align-items: center;
   padding: 1.75rem; background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow);
@@ -297,13 +297,47 @@ a { color: inherit; }
 .event-card__month { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.1em; }
 .event-card__day { font-family: var(--font-display); font-size: 2rem; }
 .event-card__body h3 { font-size: 1.25rem; margin-bottom: 0.2em; }
-.event-card__meta { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.5em; }
+.event-card__meta { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.2em; }
+.event-card__price { font-size: 0.85rem; color: var(--rose-deep); font-weight: 600; margin-bottom: 0.5em; }
 .event-card__body p:last-child { margin-bottom: 0; }
 .event-card__cta { white-space: nowrap; align-self: center; }
 
 @media (max-width: 700px) {
   .event-card { grid-template-columns: auto 1fr; }
   .event-card__cta { grid-column: 1 / -1; justify-self: start; margin-top: 0.5rem; }
+}
+
+/* Featured event (with poster image, full details, sign-up form) */
+.event-card--featured {
+  display: block; padding: 0; overflow: hidden; border-left: none; border-top: 4px solid var(--terracotta);
+}
+.event-card__poster img { width: 100%; display: block; max-height: 420px; object-fit: cover; }
+.event-card--featured .event-card__content {
+  display: grid; grid-template-columns: auto 1fr; gap: 1.75rem; padding: 2rem;
+}
+.event-card__presenter { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--sage-deep); font-weight: 600; margin-bottom: 0.4em; }
+
+.event-card__details { margin-top: 1.2em; }
+.event-card__details summary {
+  cursor: pointer; color: var(--rose-deep); font-weight: 500; font-size: 0.92rem; list-style: none;
+}
+.event-card__details summary::-webkit-details-marker { display: none; }
+.event-card__details summary::after { content: " →"; }
+.event-card__details[open] summary::after { content: " ↑"; }
+.event-card__full { margin-top: 1em; padding-top: 1em; border-top: 1px dashed rgba(124, 92, 107, 0.15); }
+.event-card__full p { font-size: 0.95rem; color: var(--text-dark); }
+.event-card__facilitator-title { font-family: var(--font-display); font-style: italic; color: var(--plum-deep); font-size: 1.05rem; margin-top: 1.5em; }
+
+.event-signup { display: flex; gap: 0.75em; margin-top: 1.5em; flex-wrap: wrap; }
+.event-signup input[type="email"] {
+  flex: 1; min-width: 200px; font-family: var(--font-body); font-size: 0.95rem; padding: 0.7em 1em;
+  border: 1px solid rgba(124, 92, 107, 0.25); border-radius: var(--radius-sm); background: var(--cream); color: var(--text-dark);
+}
+.event-signup input[type="email"]:focus { outline: 2px solid var(--rose); outline-offset: 1px; }
+
+@media (max-width: 700px) {
+  .event-card--featured .event-card__content { grid-template-columns: 1fr; }
+  .event-card__date { flex-direction: row; gap: 0.5em; justify-content: flex-start; }
 }
 
 /* ===== Contact ===== */
