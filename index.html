@@ -196,29 +196,63 @@
     <div class="section-inner">
       <p class="eyebrow">Events</p>
       <h2>Workshops &amp; group sessions.</h2>
-      <p class="events__note">Upcoming workshops, voice circles, and other events will be announced here. More details coming soon.</p>
+      <p class="events__note">Upcoming workshops, voice circles, and other events will be announced here.</p>
 
-      <!--
-        When you have a real event to add, replace this comment with an
-        <article class="event-card"> block like the one below, filled in with real details:
+      <div class="events__list">
 
-        <article class="event-card">
-          <div class="event-card__date">
-            <span class="event-card__month">JUN</span>
-            <span class="event-card__day">14</span>
+        <article class="event-card event-card--featured">
+          <div class="event-card__poster">
+            <img src="breathewise-event.jpg" alt="Breathe &amp; Unwind with Iuliana — event poster" loading="lazy">
           </div>
-          <div class="event-card__body">
-            <h3>Free Your Voice — Workshop</h3>
-            <p class="event-card__meta">7:00 PM &middot; Copenhagen</p>
-            <p>A short description of the event and who it's for.</p>
+          <div class="event-card__content">
+            <div class="event-card__date">
+              <span class="event-card__month">SEP</span>
+              <span class="event-card__day">11</span>
+            </div>
+            <div class="event-card__body">
+              <p class="event-card__presenter">BreatheWise presents</p>
+              <h3>Breathe &amp; Unwind with Iuliana</h3>
+              <p class="event-card__meta">Friday &middot; 18:30 &middot; Okkulturhuset LY, Enghavevej 42, 1674 Copenhagen</p>
+              <p class="event-card__price">150 DKK</p>
+              <p>An evening of breath, vibration &amp; stillness. Together, in a safe and supportive environment, we'll return home to the body, loosen the mind's grip, and create space to simply be — moving through body, breath, vibration, and stillness, with wearables from BreatheWise.</p>
+
+              <details class="event-card__details">
+                <summary>Read the full description</summary>
+                <div class="event-card__full">
+                  <p>Did you know that breathwork can support stress reduction and nervous system regulation, anxiety management, emotional regulation, attention and mental clarity, healthy blood pressure and circulation, sleep, and so much more?</p>
+                  <p>With all these potential benefits in mind, we invite you to take a pause after a full week of work and slow down, unwind, and reconnect with yourself.</p>
+                  <p>Together, in a safe and supportive environment, we'll return home to the body, loosen the mind's grip, and create space to simply be. For one hour, you'll be guided through practices designed to help you feel more grounded, connected, and held.</p>
+                  <p>The session moves through four pillars of embodied regulation:</p>
+                  <p><strong>BODY 🧘🏼‍♂️</strong><br>We begin with gentle stretching to warm up and release tension, creating more space and ease in the body for what follows.</p>
+                  <p><strong>BREATH 💨</strong><br>We slowly bring our awareness to our natural breath and explore different breathing patterns, allowing the breath to become a tool for grounding and relaxation. We're going to introduce and use BreatheWise devices for this part.</p>
+                  <p><strong>VIBRATION 🌀</strong><br>To create even more comfort and connection within, we'll explore the natural vibrations of our voices through gentle humming and chanting, allowing the sound to travel through the body.</p>
+                  <p><strong>STILLNESS ✨</strong><br>We gradually come to stillness, concluding the session with a short guided meditation — a moment to settle, integrate, and simply be.</p>
+                  <p>By the end of the session, our intention is for you to feel more grounded, at peace, and connected to yourself, ready to welcome the weekend from a more relaxed and embodied state.</p>
+                  <p>You'll be welcomed by the founders, Carl &amp; Lars, who'll let you into the BreatheWise world, while the session itself is facilitated by Iuliana.</p>
+                  <p>🗓️ 11 September 2026 &nbsp; ⌚️ 18:30 &nbsp; 📍 Okkulturhuset LY, Enghavevej 42, 1674 Copenhagen</p>
+                  <p class="event-card__facilitator-title">About the facilitator</p>
+                  <p>Iuliana is a trained musician and vocal coach who began her journey with the voice, breath, and body 14 years ago. Her understanding of breathing began through her musical training, long before she discovered the deeper connection between breath, the nervous system, and emotional regulation.</p>
+                  <p>She recently completed her Master's degree at the Rhythmic Music Conservatory in Copenhagen, where she immersed herself in the relationship between music and wellbeing. Throughout her studies, she explored different approaches to body awareness, breath, vocalisation, and embodied expression through a variety of projects and practices.</p>
+                  <p>Alongside this work, Iuliana has been developing her own breathwork practice for the past three years, exploring and experiencing different breathing techniques and their effects on the body, mind, and emotional state.</p>
+                  <p>She brings together her knowledge of anatomy, breath, body awareness, and emotional connection to create spaces where people can slow down, reconnect with themselves, and feel safe, held, and seen.</p>
+                </div>
+              </details>
+
+              <form class="event-signup" method="POST" action="mailto:surleac.iuliana@gmail.com" enctype="text/plain">
+                <!-- Opens the visitor's email client with their address pre-filled — no backend needed. -->
+                <input type="hidden" name="Event" value="Breathe & Unwind with Iuliana — 11 September 2026">
+                <label for="event-email" class="sr-only">Your email</label>
+                <input type="email" id="event-email" name="Email" placeholder="Your email" required>
+                <button type="submit" class="btn btn--primary">Sign me up</button>
+              </form>
+            </div>
           </div>
-          <a href="#contact" class="btn btn--ghost event-card__cta">Reserve a spot</a>
         </article>
 
-        Wrap one or more of these in a <div class="events__list"> ... </div> container.
-      -->
+      </div>
     </div>
   </section>
+
 
   <!-- CONTACT / BOOKING -->
   <section class="contact" id="contact">
