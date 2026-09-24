@@ -445,10 +445,6 @@ a { color: inherit; }
   font-family: var(--font-display); font-style: italic; color: var(--plum-deep);
   font-size: clamp(1.35rem, 2.8vw, 1.9rem); line-height: 1.45;
 }
-.quote-block__tagline {
-  text-align: center; margin: 1.2em 0 0; font-size: 0.95rem; font-weight: 600;
-  letter-spacing: 0.03em; color: var(--rose-deep); text-transform: uppercase;
-}
 
 /* ===== CTA banner ===== */
 .cta-banner { background: var(--rose); }
