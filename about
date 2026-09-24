@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Iuliana Surleac</title>
+<meta name="description" content="The story behind Iuliana Surleac's vocal coaching and vocal exploration practice.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Primary">
+    <a href="index.html" class="nav__mark">Iuliana Surleac</a>
+    <button class="nav__toggle" aria-expanded="false" aria-controls="nav-links" id="navToggle">
+      <span></span><span></span><span></span>
+      <span class="sr-only">Menu</span>
+    </button>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="lessons.html">Lessons</a></li>
+      <li><a href="prices.html">Prices</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="contact.html" class="nav__cta">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<main id="main">
+
+  <!-- ABOUT -->
+  <section class="about about--page">
+    <div class="section-inner about__grid">
+      <div class="about__portrait">
+        <div class="about__portrait-frame">
+          <img src="iuliana-photo.jpg" alt="Iuliana Surleac" loading="lazy">
+        </div>
+      </div>
+      <div class="about__copy">
+        <p class="eyebrow">About</p>
+        <h2>Hi, I'm Iuliana.</h2>
+        <p>My name is Iuliana Surleac, coming from a small city in Romania named Vaslui. I started singing when I was a kid, which led me to studying music from the age of 14, after being accepted to Octav Băncilă College of Arts in Iași in 2012, and then doing my bachelor's at the National University of Music Bucharest in 2016, with Performance, Classical Singing as my main subject.</p>
+        <p>After 8 years of vocal classical training, I started teaching. Working as a vocal coach showed me that I still lacked enough information to help my students, as people came to me to sing pop music, not classical, which I didn't know much about. So this is how I found myself diving into different vocal methods — working with different coaches from Romania, buying Cheryl Porter's courses, doing a vocal coach course in Complete Vocal Technique with an Authorised Complete Vocal Technique Teacher — implementing all that I was learning into my individual lessons with my students. My desire was to help my students in the best way possible, as much as I can.</p>
+        <p>In 2024 I moved to Denmark, where I started a master's in Music Education at Rhythmic Music Conservatory in Copenhagen. There I got the opportunity to develop myself even more, working on individual projects, developing and planning. I facilitated a series of workshops called <em>Free Your Voice</em>, where the focus was put on body work rather than vocal technique, as I was supporting the idea that if the body is free, then the voice will be free as well. I also worked on a project called <em>Music for Wellbeing</em>, where I explored how music impacts our mental state and can help us deal with stress and anxiety — and how powerful voice is in this context, when used with the purpose of bringing comfort.</p>
+        <p>I also took the time to find other ways of working with voice, as I believed that one method can't fit everyone — we are so different, each with our own needs. During this time I worked and learned with the Anne Rosing Method, but also looked into Speech Level Singing, Fitzmaurice Voicework, Kristin Linklater's Vocal Method, and Paul Newham's Voice Movement Therapy, learning more about different ways and approaches to voice and vocalisation.</p>
+        <p>Eventually I looked into my role in my students' lives, as I was not sure if "vocal coach" was the best title for what I am doing. I realised that I am:</p>
+        <ul class="about__roles">
+          <li><strong>A vocal coach,</strong> as I help my students train their voices and sing whatever they want, in any manner.</li>
+          <li><strong>A teacher,</strong> as I teach my students about their voices, how they work, and how to take care of them — but also the connection with their bodies.</li>
+          <li><strong>A facilitator,</strong> as I create a space for my students to feel welcomed and safe, a place where I encourage healthy vocal expression and where we build confidence.</li>
+          <li><strong>A guide,</strong> as I guide my students back to their authentic voice — something that has always been there, but maybe hidden for different reasons. I also let them guide me, helping them based on their own needs and sensations.</li>
+        </ul>
+        <p>In all these years working with voice, I've had the chance to work with different types of people and voices, with ages from 5 to 62 years old, with different levels — from beginners trying to find their voice to professionals who wanted to sharpen their skills. Everyone is welcomed as they are, because I believe that everyone can sing. We all have a voice, but not everyone has had the opportunity to express it freely, understand how it works, or feel confident using it.</p>
+        <div class="about__cta">
+          <a href="lessons.html" class="btn btn--primary">See the lessons</a>
+          <a href="contact.html" class="btn btn--ghost">Get in touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+<footer class="site-footer">
+  <div class="social-links social-links--footer">
+    <a href="https://www.instagram.com/voicewithiuliana/" class="social-links__item" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor"/></svg>
+    </a>
+    <a href="https://www.youtube.com/@isjudyhere" class="social-links__item" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10 9.2 L15.2 12 L10 14.8 Z" fill="currentColor"/></svg>
+    </a>
+    <a href="https://www.tiktok.com/@voicewithiuliana" class="social-links__item" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3v10.5a2.8 2.8 0 1 1-2.2-2.74" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M14 3c0 2.6 2 4.6 4.5 4.7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+    </a>
+  </div>
+  <p>&copy; <span id="year"></span> Iuliana Surleac. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
