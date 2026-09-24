@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prices — Iuliana Surleac Vocal Coaching</title>
+<meta name="description" content="Lesson prices for vocal coaching and vocal exploration with Iuliana Surleac — online and in person.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Primary">
+    <a href="index.html" class="nav__mark">Iuliana Surleac</a>
+    <button class="nav__toggle" aria-expanded="false" aria-controls="nav-links" id="navToggle">
+      <span></span><span></span><span></span>
+      <span class="sr-only">Menu</span>
+    </button>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="lessons.html">Lessons</a></li>
+      <li><a href="prices.html">Prices</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="contact.html" class="nav__cta">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<main id="main">
+
+  <!-- PRICES -->
+  <section class="prices prices--page">
+    <div class="section-inner">
+      <p class="eyebrow">Prices</p>
+      <h2>Lessons, priced simply.</h2>
+      <p class="prices__note">Every lesson is 50 minutes. Choose a single lesson or save with a bundle of 5 or 10 — available online or in person.</p>
+
+      <div class="prices__table" role="table">
+        <div class="prices__row prices__row--head" role="row">
+          <div class="prices__cell prices__cell--label" role="columnheader"></div>
+          <div class="prices__cell" role="columnheader">1 lesson</div>
+          <div class="prices__cell" role="columnheader">5 lessons</div>
+          <div class="prices__cell" role="columnheader">10 lessons</div>
+        </div>
+        <div class="prices__row" role="row">
+          <div class="prices__cell prices__cell--label" role="rowheader">In person</div>
+          <div class="prices__cell" role="cell" data-label="1 lesson">
+            <div class="prices__value"><span class="prices__amount">500 DKK</span></div>
+          </div>
+          <div class="prices__cell" role="cell" data-label="5 lessons">
+            <div class="prices__value">
+              <span class="prices__amount">450 DKK<span class="prices__unit">/session</span></span>
+              <span class="prices__sub">2,250 DKK total</span>
+            </div>
+          </div>
+          <div class="prices__cell" role="cell" data-label="10 lessons">
+            <div class="prices__value">
+              <span class="prices__amount">400 DKK<span class="prices__unit">/session</span></span>
+              <span class="prices__sub">4,000 DKK total</span>
+            </div>
+          </div>
+        </div>
+        <div class="prices__row" role="row">
+          <div class="prices__cell prices__cell--label" role="rowheader">Online</div>
+          <div class="prices__cell" role="cell" data-label="1 lesson">
+            <div class="prices__value">
+              <span class="prices__amount">450 DKK</span>
+              <span class="prices__sub">≈ €60</span>
+            </div>
+          </div>
+          <div class="prices__cell" role="cell" data-label="5 lessons">
+            <div class="prices__value">
+              <span class="prices__amount">400 DKK<span class="prices__unit">/session</span></span>
+              <span class="prices__sub">2,000 DKK &middot; ≈ €275 total</span>
+            </div>
+          </div>
+          <div class="prices__cell" role="cell" data-label="10 lessons">
+            <div class="prices__value">
+              <span class="prices__amount">350 DKK<span class="prices__unit">/session</span></span>
+              <span class="prices__sub">3,500 DKK &middot; ≈ €475 total</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="prices__footnote">Prices apply to both Vocal Coaching and Vocal Exploration sessions. Euro amounts are approximate.</p>
+
+      <div class="prices__cta">
+        <a href="contact.html" class="btn btn--primary">Book a lesson</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+<footer class="site-footer">
+  <div class="social-links social-links--footer">
+    <a href="https://www.instagram.com/voicewithiuliana/" class="social-links__item" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor"/></svg>
+    </a>
+    <a href="https://www.youtube.com/@isjudyhere" class="social-links__item" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10 9.2 L15.2 12 L10 14.8 Z" fill="currentColor"/></svg>
+    </a>
+    <a href="https://www.tiktok.com/@voicewithiuliana" class="social-links__item" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3v10.5a2.8 2.8 0 1 1-2.2-2.74" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M14 3c0 2.6 2 4.6 4.5 4.7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+    </a>
+  </div>
+  <p>&copy; <span id="year"></span> Iuliana Surleac. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
