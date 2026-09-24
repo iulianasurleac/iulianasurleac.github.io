@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lessons — Iuliana Surleac Vocal Coaching</title>
+<meta name="description" content="Vocal Coaching and Vocal Exploration lessons with Iuliana Surleac — in Copenhagen and online.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Primary">
+    <a href="index.html" class="nav__mark">Iuliana Surleac</a>
+    <button class="nav__toggle" aria-expanded="false" aria-controls="nav-links" id="navToggle">
+      <span></span><span></span><span></span>
+      <span class="sr-only">Menu</span>
+    </button>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="lessons.html">Lessons</a></li>
+      <li><a href="prices.html">Prices</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="contact.html" class="nav__cta">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<main id="main">
+
+  <!-- LESSONS -->
+  <section class="lessons lessons--page">
+    <div class="section-inner">
+      <p class="eyebrow eyebrow--on-dark">Voice lessons</p>
+      <h2 class="lessons__title">Two disciplines, one voice.</h2>
+      <p class="lessons__intro">Individual lessons in Copenhagen and online, 50 minutes each. Whether you're chasing technique or looking for a gentler way back into your voice, we'll shape the work around what you need.</p>
+      <div class="lessons__grid">
+
+        <article class="lesson-card lesson-card--coaching">
+          <svg class="lesson-card__icon" viewBox="0 0 200 60" aria-hidden="true">
+            <path d="M0,30 L20,10 L40,50 L60,5 L80,55 L100,20 L120,40 L140,15 L160,45 L180,25 L200,30" />
+          </svg>
+          <h3>Vocal Coaching</h3>
+          <p>Lessons combine technical vocal training with body awareness, breathing, movement, imagination, and creative expression. Depending on your needs, we can work on vocal technique, confidence, musicality, performance, vocal freedom, or simply finding more comfort in your own voice.</p>
+          <p>Whether you are a beginner discovering your voice for the first time, an experienced singer wishing to refine your skills, or someone who simply loves to sing, the lessons are tailored to your individual goals and pace. Together, we will explore your voice in a healthy, sustainable, and supportive environment, where curiosity, playfulness, and authenticity are just as important as technique.</p>
+          <p class="lesson-card__for">The goal is not to become someone else's voice, but to discover your own.</p>
+        </article>
+
+        <article class="lesson-card lesson-card--healing">
+          <svg class="lesson-card__icon" viewBox="0 0 200 60" aria-hidden="true">
+            <path d="M0,30 C25,10 45,50 70,30 C95,10 115,50 140,30 C165,10 185,50 200,30" />
+          </svg>
+          <h3>Vocal Exploration</h3>
+          <p>This is for those who want a more holistic approach to voice, working with vocal sounding, exploration, and body work to find more comfort in using and expressing your voice freely. In a safe space, inspired by Paul Newham's Voice Movement Therapy — the idea that everything that happens in our life leaves a trace on our voice, and that the voice is also a way out — I combine my own work with sound healing, breathwork, and bodywork to support each client in their own way.</p>
+          <p>I want to help you befriend your voice and let it exist in the space.</p>
+          <p class="lesson-card__for">For anyone looking for a different way into vocal work — who feels stuck, or is looking for a safe place to express their voice and find comfort through it.</p>
+        </article>
+
+      </div>
+
+      <div class="lessons__cta">
+        <a href="prices.html" class="btn btn--primary">See prices</a>
+        <a href="contact.html" class="btn btn--ghost">Book a lesson</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIAL HIGHLIGHTS -->
+  <section class="testimonials">
+    <div class="section-inner">
+      <p class="eyebrow eyebrow--on-dark">What students say</p>
+      <div class="testimonials__grid testimonials__grid--highlights">
+        <figure class="testimonial-card">
+          <blockquote>"I started as a complete beginner and Iuliana has been a tremendous help since the beginning. The focus is on having fun and getting better at singing. 10/10 would recommend."</blockquote>
+          <figcaption>— Nikolaj R. ★★★★★</figcaption>
+        </figure>
+        <figure class="testimonial-card">
+          <blockquote>"Incredibly talented and professional singing teacher with great knowledge of technique. With just a few lessons, she has made a big difference in my singing!"</blockquote>
+          <figcaption>— Lars J. ★★★★★</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+</main>
+<footer class="site-footer">
+  <div class="social-links social-links--footer">
+    <a href="https://www.instagram.com/voicewithiuliana/" class="social-links__item" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor"/></svg>
+    </a>
+    <a href="https://www.youtube.com/@isjudyhere" class="social-links__item" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10 9.2 L15.2 12 L10 14.8 Z" fill="currentColor"/></svg>
+    </a>
+    <a href="https://www.tiktok.com/@voicewithiuliana" class="social-links__item" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3v10.5a2.8 2.8 0 1 1-2.2-2.74" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M14 3c0 2.6 2 4.6 4.5 4.7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+    </a>
+  </div>
+  <p>&copy; <span id="year"></span> Iuliana Surleac. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
