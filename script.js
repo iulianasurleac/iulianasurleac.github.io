@@ -22,7 +22,7 @@ if (yearEl) yearEl.textContent = new Date().getFullYear();
 
 // Scroll reveal
 const revealTargets = document.querySelectorAll(
-  '.about__grid, .lessons__grid, .prices__table, .testimonials__grid, .events__list, .contact__grid'
+  '.about__grid, .lessons__grid, .prices__table, .testimonials__grid, .events__list, .contact__grid, .stats__grid, .cta-banner__inner, .quote-block blockquote'
 );
 revealTargets.forEach((el) => el.classList.add('reveal'));
 
