@@ -281,6 +281,17 @@ a { color: inherit; }
   .testimonials__grid { grid-template-columns: 1fr; }
 }
 
+.testimonials__scroll {
+  display: flex; gap: 1.5rem; margin-top: 2.5rem; overflow-x: auto; padding-bottom: 0.5rem;
+  scroll-snap-type: x proximity; -webkit-overflow-scrolling: touch;
+}
+.testimonials__scroll .testimonial-card {
+  flex: 0 0 clamp(260px, 80vw, 360px); scroll-snap-align: start;
+}
+.testimonials__scroll::-webkit-scrollbar { height: 6px; }
+.testimonials__scroll::-webkit-scrollbar-thumb { background: var(--rose); border-radius: 999px; }
+.testimonials__scroll::-webkit-scrollbar-track { background: transparent; }
+
 /* ===== Events ===== */
 .events { background: var(--cream); }
 .events__note { max-width: 55ch; color: var(--text-muted); }
@@ -323,6 +334,13 @@ a { color: inherit; }
   display: grid; grid-template-columns: auto 1fr; gap: 1.75rem; padding: 2rem;
 }
 .event-card__presenter { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--sage-deep); font-weight: 600; margin-bottom: 0.4em; }
+
+.event-card--past { opacity: 0.85; }
+.event-card--past .event-card__poster { filter: grayscale(0.5); }
+.event-card__past-badge {
+  display: inline-block; margin-left: 0.6em; padding: 0.2em 0.7em; border-radius: 999px;
+  background: var(--plum); color: var(--white); font-size: 0.7rem; letter-spacing: 0.04em; text-transform: none; font-weight: 600;
+}
 
 .event-card__details { margin-top: 1.2em; }
 .event-card__details summary {
@@ -426,6 +444,10 @@ a { color: inherit; }
   margin: 0 auto; max-width: 54ch; text-align: center;
   font-family: var(--font-display); font-style: italic; color: var(--plum-deep);
   font-size: clamp(1.35rem, 2.8vw, 1.9rem); line-height: 1.45;
+}
+.quote-block__tagline {
+  text-align: center; margin: 1.2em 0 0; font-size: 0.95rem; font-weight: 600;
+  letter-spacing: 0.03em; color: var(--rose-deep); text-transform: uppercase;
 }
 
 /* ===== CTA banner ===== */
