@@ -477,3 +477,71 @@ a { color: inherit; }
 /* ===== Reveal animation ===== */
 .reveal { opacity: 0; transform: translateY(16px); transition: opacity 0.7s ease, transform 0.7s ease; }
 .reveal.is-visible { opacity: 1; transform: translateY(0); }
+
+/* ===== Third service: Breathwork & Meditation ===== */
+.lesson-card--breath { border-top: 4px solid var(--terracotta); }
+.lesson-card--breath .lesson-card__icon path { stroke: var(--terracotta); }
+.lesson-card--breath .lesson-card__link { color: #A9744A; }
+.lesson-card--wide { grid-column: 1 / -1; }
+.lesson-card--wide p { max-width: 78ch; }
+
+@media (min-width: 901px) {
+  .lessons__grid--three { grid-template-columns: repeat(3, 1fr); }
+  .lessons__grid--three .lesson-card { padding: 2rem; }
+}
+
+/* ===== Prices: separate sections ===== */
+.prices__subtitle { font-size: 1.2rem; margin: 2.25rem 0 0; color: var(--plum-deep); }
+.prices__subtitle--spaced { margin-top: 3rem; }
+.prices__subtitle + .prices__table { margin-top: 1rem; }
+.prices__single {
+  display: flex; align-items: center; gap: 2rem; flex-wrap: wrap; margin-top: 1rem;
+  padding: 1.5rem 2rem; background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow);
+  border-left: 4px solid var(--terracotta);
+}
+.prices__single-amount { display: flex; flex-direction: column; gap: 0.2em; font-family: var(--font-display); }
+.prices__single .prices__amount { font-size: 1.7rem; }
+.prices__single p { margin: 0; max-width: 46ch; font-size: 0.95rem; color: var(--text-dark); }
+
+/* ===== About: education & training timeline ===== */
+.timeline { background: var(--sage); }
+.timeline h2 { font-size: clamp(1.8rem, 3.5vw, 2.6rem); }
+.timeline__grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem, 6vw, 4.5rem); margin-top: 2.5rem;
+}
+.timeline__heading { font-size: 1.25rem; color: var(--plum-deep); margin-bottom: 0; }
+.timeline__list {
+  list-style: none; margin: 1.5rem 0 0; padding: 0 0 0 1.6rem; border-left: 2px solid var(--rose);
+}
+.timeline__item { position: relative; padding-bottom: 1.9rem; }
+.timeline__item:last-child { padding-bottom: 0; }
+.timeline__item::before {
+  content: ""; position: absolute; left: calc(-1.6rem - 7px); top: 0.35em;
+  width: 12px; height: 12px; border-radius: 50%; background: var(--rose); box-shadow: 0 0 0 4px var(--sage);
+}
+.timeline__year {
+  display: block; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; color: var(--plum); margin-bottom: 0.25em;
+}
+.timeline__place { font-family: var(--font-display); font-size: 1.15rem; color: var(--plum-deep); margin: 0 0 0.2em; line-height: 1.3; }
+.timeline__detail { font-size: 0.95rem; color: var(--text-dark); margin: 0; }
+
+@media (max-width: 780px) {
+  .timeline__grid { grid-template-columns: 1fr; }
+}
+
+/* ===== Services: group sessions note ===== */
+.group-cta { background: var(--cream); }
+.group-cta__inner {
+  display: flex; align-items: center; justify-content: space-between; gap: 2rem; flex-wrap: wrap;
+  padding-top: clamp(3rem, 7vw, 4.5rem); padding-bottom: clamp(3rem, 7vw, 4.5rem);
+}
+.group-cta__copy { max-width: 56ch; }
+.group-cta__copy h2 { font-size: clamp(1.6rem, 3vw, 2.1rem); }
+.group-cta__copy p:last-child { margin-bottom: 0; color: var(--text-dark); }
+
+/* ===== Timeline: linked institution ===== */
+.timeline__place a {
+  color: inherit; text-decoration: underline; text-decoration-color: var(--rose);
+  text-decoration-thickness: 1.5px; text-underline-offset: 0.2em; transition: color 0.2s ease;
+}
+.timeline__place a:hover { color: var(--rose-deep); }
